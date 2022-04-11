@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="122px" viewBox="0 0 126 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-18">
+            <g id="credit-card-(1)" fill-rule="nonzero">
+                <circle id="Oval" fill="#303030" cx="61" cy="61" r="61"></circle>
+                <path d="M122,65.99803 L93.724267,38 L39.6278509,69.6435784 L28,82.9278473 L66.4501026,121 C95.9365125,118.45124 119.424743,95.194363 122,65.99803 Z" id="Path" fill="#000000"></path>
+                <path d="M91.222116,85 L30.777884,85 C28.6913579,85 27,83.3299516 27,81.2697139 L27,41.729814 C27,39.6695763 28.6913579,38 30.777884,38 L91.222116,38 C93.3086421,38 95,39.6700484 95,41.729814 L95,81.2697139 C95,83.3299516 93.3081639,85 91.222116,85 Z" id="Path" fill="#2BFF9F"></path>
+                <path d="M91.2372756,38 L61,38 L61,85 L91.2372756,85 C93.315429,85 95,83.3299516 95,81.2697139 L95,41.7302861 C94.9995238,39.6700484 93.3149528,38 91.2372756,38 Z" id="Path" fill="#019954"></path>
+                <rect id="Rectangle" fill="#636363" x="27" y="45" width="68" height="10"></rect>
+                <rect id="Rectangle" fill="#303030" x="61" y="45" width="34" height="10"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="34" y="68" width="23" height="6"></rect>
+            </g>
+            <g id="Group-21" transform="translate(96.000000, 0.000000)">
+                <g id="Group-8-Copy-2">
+                    <rect id="Rectangle" fill="#019954" x="0" y="0" width="30" height="30" rx="15"></rect>
+                    <text id="3" font-family="Ubuntu-Regular, Ubuntu" font-size="18" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="10.424" y="22">3</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

